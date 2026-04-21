@@ -83,7 +83,7 @@ fun Calculator(
     var operatorState by remember { mutableStateOf("+")}
     var resultState by remember { mutableStateOf("")}
 
-    LaunchedEffect(num1State, num2State, operatorState) {
+    LaunchedEffect5o(num1State, num2State, operatorState) {
         val n1 = num1State.toDoubleOrNull()
         val n2 = num2State.toDoubleOrNull()
 
